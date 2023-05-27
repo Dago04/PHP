@@ -1,5 +1,5 @@
 <?php 
-  $nombrePagina ='Pagina PHP';
+  $nombrePagina ='Prueba Dago';
 ?>
 
 <!doctype html>
