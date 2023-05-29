@@ -1,13 +1,8 @@
 
-
-
-
-
-
 <?php
-$nombrePagina = 'Prueba Dago';
+  require 'menu.php';
+  require 'footer.php'   //se ocupa el archivo pero no se cae la aplicacion
 ?>
-
 <!doctype html>
 <html lang="en">
 
@@ -24,52 +19,14 @@ $nombrePagina = 'Prueba Dago';
 
 <body>
   <header>
-
+    <?php echo $menu;
+      ?>
   </header>
   <main>
-    <?php
-    $titulo = "<h1>" . $nombrePagina . "</h1>";
-    $titulo2 = "<h1>$nombrePagina</h1>";
-    echo $titulo;
-    echo $titulo2;
-    echo '<div class="table-responsive">
-            <table class="table table-striped
-            table-hover	
-            table-borderless
-            table-primary
-            align-middle">
-              <thead class="table-light">
-                <caption>Table Name</caption>
-                <tr>
-                  <th>Column 1</th>
-                  <th>Column 2</th>
-                  <th>Column 3</th>
-                </tr>
-                </thead>
-                <tbody class="table-group-divider">
-                  <tr class="table-primary" >
-                    <td scope="row">Item</td>
-                    <td>Item</td>
-                    <td>Item</td>
-                  </tr>
-                  <tr class="table-primary">
-                    <td scope="row">Item</td>
-                    <td>Item</td>
-                    <td>Item</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  
-                </tfoot>
-            </table>
-          </div>'
-    ?>
-
-
-
+   
   </main>
   <footer>
-
+  <?php echo $footer?>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

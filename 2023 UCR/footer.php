@@ -4,10 +4,7 @@
         <div class="row text-center text-md-left">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Proyecto</h5>
-                <p> Construya un micro-sitio que sea de su tema
-                    de preferencia(Estilos y colores), y el sitio web debe utilizar un framework ( este caso deben
-                    usar Bootstrap) que lo permita ser responsive(adaptativo a los diferentes anchos de
-                    pantalla)
+                <p>Ejemplo PHP
                 </p>
             </div>
 
@@ -23,7 +20,7 @@
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Acerca de</h5>
                 <p>
-                    Primero Proyecto Individual, Curso multimedios, Universidad de Costa Rica
+                    Proyecto PHP
                 </p>
 
             </div>
