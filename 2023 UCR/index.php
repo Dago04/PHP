@@ -1,7 +1,10 @@
 
 <?php
   require 'menu.php';
-  require 'footer.php'   //se ocupa el archivo pero no se cae la aplicacion
+  require 'footer.php';
+  require 'plantilla.php';
+  
+  $plantilla = new plantilla(); //se ocupa el archivo pero no se cae la aplicacion
 ?>
 <!doctype html>
 <html lang="en">
@@ -19,14 +22,18 @@
 
 <body>
   <header>
-    <?php echo $menu;
-      ?>
+    <?php
+     echo $plantilla->getMenu();
+    ?>
+   
   </header>
   <main>
    
   </main>
   <footer>
-  <?php echo $footer?>
+  <?php
+     echo $plantilla->getFooter();
+    ?>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
