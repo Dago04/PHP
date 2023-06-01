@@ -6,7 +6,7 @@
 
             $url = rtrim($url,'/');
 
-            $url = explode
+          
         }
     }
 ?>
