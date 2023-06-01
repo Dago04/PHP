@@ -1,5 +1,5 @@
 <?php
-
+//clase que permite el redericionamiento de las vistas
 
 class view{
 
