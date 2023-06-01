@@ -8,7 +8,7 @@
         }
 
         function loadModel($model){
-            $url= 'model/'.$model.'php';
+            $url= 'model/'.$model.'model.php';
 
             if(file_exists($url)){
                 require $url;
