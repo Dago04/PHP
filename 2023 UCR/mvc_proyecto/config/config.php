@@ -12,5 +12,7 @@ db = 'u484426513_apireact'#nombre de la base datos -->
     define('PASSWORD', 'i:![VW:3S#');
     define('CHARSET', 'utf8mb4');
     
+    //URL del proyecto web
 
+    define('URL', 'http://localhost/PHP/2023%20UCR/mvc_proyecto')
 ?>
