@@ -14,5 +14,5 @@ db = 'u484426513_apireact'#nombre de la base datos -->
     
     //URL del proyecto web
 
-    define('URL', 'http://localhost/PHP/2023%20UCR/mvc_proyecto')
+    define('URL', 'http://localhost/PHP/2023%20UCR/mvc_proyecto/');
 ?>
