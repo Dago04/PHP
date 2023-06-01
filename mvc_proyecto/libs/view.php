@@ -9,7 +9,7 @@ class view{
     }
 
     function render($nombre){
-        require 'view/'.$nombre.'php';
+        require 'view/'.$nombre.'.php';
     }
 }
 

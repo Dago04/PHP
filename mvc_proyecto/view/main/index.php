@@ -1,4 +1,5 @@
 <?php
+ require 'view/header.php';
     require 'view/menu.php';
 ?>
 <div class="container-fluid">
